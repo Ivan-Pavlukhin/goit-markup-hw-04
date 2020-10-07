@@ -203,6 +203,9 @@ p {
 }
 
 .advanteges-items .picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 120px;
   margin-bottom: 30px;
@@ -212,11 +215,6 @@ p {
 }
 
 .advanteges .icon {
-  display: block;
-  margin-top: 25px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 25px;
 }
 
 /*.title.antenna::before {
@@ -333,20 +331,21 @@ p {
 
 .social-links {
   display: flex;
-  justify-content: space-between;
   list-style: none;
   margin-left: 32px;
   margin-right: 32px;
-}
-.social-links .item {
-  width: 20px;
-  height: 20px;
-
-  padding: 22px;
   margin-bottom: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+.social-links .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
   border-radius: 50%;
+  border: 1px solid tomato;
 }
 
 .social-links .item:not(:last-child) {
@@ -356,7 +355,7 @@ p {
   display: block;
 } */
 
-.our-team .instagram {
+/* .our-team .instagram {
   background-image: url(../img/svg/instagram\ 2.svg);
 }
 .our-team .twitter {
@@ -367,7 +366,7 @@ p {
 }
 .our-team .linkedin {
   background-image: url(../img/svg/linkedin\ 1.svg);
-}
+} */
 
 /* our clients */
 .our-clients .title {
@@ -393,7 +392,13 @@ p {
   border-radius: 4px;
 } */
 .items-clients .link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 /* footer */
@@ -431,12 +436,12 @@ p {
   list-style: none;
 }
 .our-link-items .item {
-  width: 20px;
-  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
 
-  padding: 22px;
-  background-repeat: no-repeat;
-  background-position: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -445,7 +450,7 @@ p {
   margin-right: 10px;
 }
 
-.instagram-footer {
+/* .instagram-footer {
   display: block;
   width: 20px;
   height: 20px;
@@ -473,7 +478,7 @@ p {
   height: 20px;
   content: '';
   background-image: url(../img/svg/linkedin-f.svg);
-}
+} */
 footer {
   background-color: #2f303a;
 }
