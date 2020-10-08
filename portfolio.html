@@ -34,10 +34,20 @@
         </nav>
         <ul class="li contact-container">
           <li class="item">
-            <a href="/" class="header-link contacts">info@devstudio.com</a>
+            <a href="/" class="header-link contacts">
+              <svg class="icon" width="16" height="12">
+                <use href="./sprite.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a
+            >
           </li>
           <li class="item">
-            <a href="/" class="header-link contacts">+38 096 111 11 11</a>
+            <a href="/" class="header-link contacts">
+              <svg class="icon" width="10" height="16">
+                <use href="./sprite.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -46,28 +56,34 @@
     <section class="container">
       <ul class="li filter-list">
         <li class="item">
-          <button type="button" class="button-filter">Все</button>
+          <button type="button" class="button-filter">
+            <span class="text">Все</span>
+          </button>
         </li>
         <li class="item">
-          <button type="button" class="button-filter">Веб-сайты</button>
+          <button type="button" class="button-filter">
+            <span class="text">Веб-сайты</span>
+          </button>
         </li>
         <li class="item">
-          <button type="button" class="button-filter">Приложения</button>
+          <button type="button" class="button-filter">
+            <span class="text">Приложения</span>
+          </button>
         </li>
         <li class="item">
-          <button type="button" class="button-filter">Дизайн</button>
+          <button type="button" class="button-filter">
+            <span class="text">Дизайн</span>
+          </button>
         </li>
         <li class="item">
-          <button type="button" class="button-filter">Маркетинг</button>
+          <button type="button" class="button-filter">
+            <span class="text">Маркетинг</span>
+          </button>
         </li>
       </ul>
       <ul class="li projects">
         <li class="item">
-          <img
-            src="./img/img.jpg"
-            alt="ноутбук с открытым веб сайтом"
-            width="370"
-          />
+          <img src="./img/img.jpg" alt="ноутбук с открытым веб сайтом" />
           <h2 class="title">Технокряк</h2>
           <p class="text">Веб-сайт</p>
         </li>
@@ -122,16 +138,53 @@
     <!-- footer -->
     <footer class="footer">
       <div class="container">
-        <a href="/" class="logo accent">Web<span class="white">Studio</span></a>
-        <address>
-          <a href="/" class="contact-address"
-            >г. Киев, пр-т Леси Украинки, 26</a
+        <div>
+          <a href="/" class="logo accent"
+            >Web<span class="white">Studio</span></a
           >
-        </address>
-        <ul class="li list">
-          <li><a href="/" class="us-contact">info@example.com</a></li>
-          <li><a href="/" class="us-contact">+38 099 111 11 11</a></li>
-        </ul>
+          <address>
+            <a href="/" class="contact-address"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </address>
+          <ul class="li list">
+            <li><a href="/" class="us-contact">info@example.com</a></li>
+            <li><a href="/" class="us-contact">+38 099 111 11 11</a></li>
+          </ul>
+        </div>
+        <div class="our-link">
+          <b>присоединяйтесь</b>
+          <ul class="our-link-items">
+            <li class="item instagram-footer">
+              <a class="link" href=""
+                ><svg class="icon" width="20" height="20">
+                  <use href="./sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item twitter-footer">
+              <a class="link" href=""
+                ><svg class="icon" width="20" height="20">
+                  <use href="./sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item facebook-footer">
+              <a class="link" href=""
+                ><svg class="icon" width="20" height="20">
+                  <use href="./sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item linkedin-footer">
+              <a class="link" href=""
+                ><svg class="icon" width="20" height="20">
+                  <use href="./sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
