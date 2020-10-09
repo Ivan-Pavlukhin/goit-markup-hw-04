@@ -98,30 +98,11 @@ p {
   --color3: var(--primary-text-color);
 }
 
-.header-link .icon:hover,
-.header-link .icon:focus {
+.header-link:hover .icon,
+.header-link:focus .icon {
   --color3: var(--accent-color);
   --color5: var(--accent-color);
 }
-
-/* .contact-container .contact::before {
-  display: inline-block;
-  content: '';
-  background-repeat: no-repeat;
-  margin-right: 10px;
-  width: 16px;
-  height: 12px;
-}
-.contact.mail::before {
-  background-size: contain;
-  background-image: url(../img/svg/envelope.svg);
-}
-
-.contact.phone::before {
-  background-size: contain;
-  background-image: url(../img/svg/smartphone.svg);
-  width: 10px;
-} */
 
 /* logo */
 .logo {
@@ -159,9 +140,9 @@ p {
 }
 
 .header-link:hover,
-.header-link:focus,
-.header-link.contacts:hover,
-.header-link.contacts:focus {
+.header-link:focus
+/* .header-link.contacts:hover,
+.header-link.contacts:focus*/ {
   color: var(--accent-color);
 }
 
@@ -229,33 +210,6 @@ p {
   background: #f5f4fa;
   border-radius: 4px;
 }
-
-.advanteges .icon {
-}
-
-/*.title.antenna::before {
-  background-image: url(../img/svg/antenna\ 1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.title.clock::before {
-  background-image: url(../img/svg/clock\ 1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.title.diagram::before {
-  background-image: url(../img/svg/diagram\ 1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.title.astronaut::before {
-  background-image: url(../img/svg/astronaut\ 1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 
 .advanteges-items .item {
   width: calc((100%-90px) / 4);
@@ -376,8 +330,8 @@ p {
   --color4: #afb1b8;
 }
 
-.our-team .icon:hover,
-.our-team .icon:focus {
+.social-links > .item:hover .icon,
+.social-links > .item:focus .icon {
   --color1: #ffffff;
   --color4: #ffffff;
 }
@@ -424,8 +378,8 @@ p {
   --color3: #afb1b8;
 }
 
-.our-clients .icon:hover,
-.our-clients .icon:focus {
+.items-clients > .item:hover .icon,
+.items-clients > .item:focus .icon {
   --color3: var(--accent-color);
   --color4: var(--accent-color);
 }
@@ -557,7 +511,7 @@ footer {
 } */
 
 .projects .item {
-  width: calc((100% - 60px) / 3);
+  /* width: calc((100% - 60px) / 3); */
   border: 1px solid #eeeeee;
 }
 
