@@ -558,6 +558,7 @@ footer {
 
 .projects .item {
   width: calc((100% - 60px) / 3);
+  border: 1px solid #eeeeee;
 }
 
 .projects .item:not(:nth-child(3n)) {
