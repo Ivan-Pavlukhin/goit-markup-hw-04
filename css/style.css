@@ -550,6 +550,16 @@ footer {
   flex-wrap: wrap;
 }
 
+/* .projects img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
+.projects .item {
+  width: calc((100% - 60px) / 3);
+}
+
 .projects .item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
